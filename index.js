@@ -67,7 +67,7 @@ app.get('/api/users', (req, res) => {
   res.json({ users: Array.from(users.values()) })
 })
 
-const PORT = process.env.PORT || 3000
+const PORT =  5554
 server.listen(PORT, () => {
   console.log(`🚀 Serveur Socket.IO running on http://localhost:${PORT}`)
 })
